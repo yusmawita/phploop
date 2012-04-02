@@ -1,8 +1,8 @@
-PHPMongoTweet on OpenShift Express
-==================================
+PHPMongoTweet on OpenShift
+==========================
 
 This git repository helps you get up and running quickly w/ a PHP sample application
-that uses MongoDB on OpenShift Express
+that uses MongoDB on OpenShift
 
 Running on OpenShift
 --------------------

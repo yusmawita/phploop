@@ -38,7 +38,7 @@
      $host   = $_ENV["OPENSHIFT_NOSQL_DB_HOST"];
      $user   = $_ENV["OPENSHIFT_NOSQL_DB_USERNAME"];
      $passwd = $_ENV["OPENSHIFT_NOSQL_DB_PASSWORD"];
-     $port = $_ENV["OPENSHIFT_NOSQL_DB_PORT"];
+     $port   = $_ENV["OPENSHIFT_NOSQL_DB_PORT"];
 
      $uri = "mongodb://" . $user . ":" . $passwd . "@" . $host . ":" . $port;
      $mongo = new Mongo($uri);

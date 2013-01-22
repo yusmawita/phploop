@@ -15,7 +15,7 @@ Create a php-5.3 application
 
 Add MongoDB support to your application
 
-    rhc app cartridge add -a phpmongotweet -c mongodb-2.2
+    rhc cartridge add -a phpmongotweet -c mongodb-2.2
 
 Add this upstream phpmongotweet repo
 

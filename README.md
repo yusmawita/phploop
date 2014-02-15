@@ -9,13 +9,9 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a php-5.3 application
+Create a php application with mongodb
 
-    rhc app create -a phpmongotweet -t php-5.3
-
-Add MongoDB support to your application
-
-    rhc cartridge add -a phpmongotweet -c mongodb-2
+    rhc app create phpmongotweet php-5.3 mongodb-2
 
 Add this upstream phpmongotweet repo
 

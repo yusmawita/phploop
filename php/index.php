@@ -84,7 +84,7 @@ $resarray   = iterator_to_array($cursor);
                summary="Saved tweets">
 <?php
     echo "<caption>MongoDB: A timeline of saved tweets [" . count($resarray) .
-         "]<br />an <a href=\"https://openshift.redhat.com/app/\" target=\"_new\">OpenShift</a> demo application with MongoDB -- follow us <a href=\"https://twitter.com/#!/openshift\" target=\"_new\">@openshift</a></caption>\n";
+         "]<br />an <a href=\"https://www.openshift.com/\" target=\"_new\">OpenShift</a> demo application with MongoDB -- follow us <a href=\"https://twitter.com/#!/openshift\" target=\"_new\">@openshift</a></caption>\n";
 ?>
            <tr>
              <th scope="col" abbr="tweets" class="nobackground">timeline</th>

@@ -1,20 +1,9 @@
 <html>
   <head>
-    <title>PHPMongoTweet - MongoDB + tweets</title>
+    <title>Bilangan Ganjil Dan Genap</title>
     
   <body>
-     <?php
-
-for($i=1;$i<=20;$i++){
-if($i % 2 == 0) {
-   echo $i.' Bilangan Genap<br/>';
-}else {
-   echo $i.' Bilangan Ganjil<br/>';
-}
-}
-?>
-
-
+     
 <table border="1">
 <tr>
 <td width="200px">Bilangan Genap</td>
@@ -26,7 +15,7 @@ if($i % 2 == 0) {
 <?php
 for($i=1;$i<=100;$i++){
         if($i % 2 == 0)  {
-        echo $i.' <br> Bilangan Genap';
+        echo 'Bilangan Genap '.$i.'<br>';
 }
 }
 ?>
@@ -37,7 +26,7 @@ for($i=1;$i<=100;$i++){
 <?php
 for($i=1;$i<=100;$i++){
         if($i % 2 == 1){
-        echo $i.'<br> Bilangan Ganjil';
+        echo 'Bilangan Ganjil '.$i.'<br>';
 }
 }
 ?>

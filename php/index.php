@@ -5,19 +5,15 @@
   <body>
     
 <?php
-    for($i=0;$i<100;$i++)
-    {
-        for($j=0;$j<=$i;$j++)
-        {
-            echo "✿♛";
-        }
-        echo "<br/>";
-    }
+    
+for($i=1;$i<=100;$++){
+echo 'Kelipatan "+=.$i.'<br/>';
+for($j=1;$j<=100;$j++){
+echo.$j+$i.' ';
+}
+echo '<br/>';
+}
+
 ?>
-
-
-
-
-
   </body>
 </html>

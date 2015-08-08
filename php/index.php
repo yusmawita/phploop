@@ -20,21 +20,21 @@ if($i % 2 == 0) {
 </tr>
 <tr>
 <td style="text-align:center">
-<%
+<?php
 for(int i=1;i<=100;i++){
         if(i%2==0){
         echo(i+"<br/>");}
 }
-%>
+?>
 </td>
 <td style="text-align:center">
-<%
+<?php
 for(int i=1;i<=100;i++){
         if(i%2==1){
         echo(i+"<br/>");}
 }
 }
-%>
+?>
 </td>
 <td style="text-align:center">
 <%

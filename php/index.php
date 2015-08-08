@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>PHPMongoTweet - MongoDB + tweets</title>
+    <title>Looping segitiga</title>
     
   <body>
     

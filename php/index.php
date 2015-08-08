@@ -29,6 +29,16 @@ for($i=1;$i<=100;$i++){
         echo $i.' <br> Bilangan Genap';
 }
 }
+</td>
+
+
+<td style="text-align:center">
+<?php
+for($i=1;$i<=100;$i++){
+        if($i%2==1){
+        echo(i+' Bilangan Ganjil <br/>');}
+}
+}
 ?>
 </td>
 </tr>

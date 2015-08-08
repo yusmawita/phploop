@@ -13,6 +13,11 @@ if($i % 2 == 0) {
 }
 }
 ?>
+
+
+
+
+
 <table border="1">
 <tr>
 <td width="200px">Bilangan Genap</td>
@@ -21,26 +26,27 @@ if($i % 2 == 0) {
 <tr>
 <td style="text-align:center">
 <?php
-for(int i=1;i<=100;i++){
-        if(i%2==0){
-        echo(i+"<br/>");}
+for($i=1;$i<=100;$i++){
+        if($i%2==0){
+        echo($i.' <br> Bilangan Genap');
+}
 }
 ?>
 </td>
 <td style="text-align:center">
 <?php
-for(int i=1;i<=100;i++){
-        if(i%2==1){
-        echo(i+"<br/>");}
+for($i=1;$i<=100;$i++){
+        if($i%2==1){
+        echo(i+' Bilangan Ganjil <br/>');}
 }
 }
 ?>
 </td>
 <td style="text-align:center">
 <%
-for(int i=1;i<=100;i++){
-        if(i%2==1){
-        echo(i+"<br/>");}
+for($i=1;$i<=100;$i++){
+        if($i%2==1){
+        echo(i+'<br/>');}
 }
 %>
 </td>

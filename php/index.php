@@ -6,7 +6,7 @@
     
 <?php
     
-for($i=1;$i<=100;$++){
+for($i=1;$i<=100;$i++){
 echo 'Kelipatan "+=.$i.'<br/>';
 for($j=1;$j<=100;$j++){
 echo.$j+$i.' ';

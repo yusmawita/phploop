@@ -1,39 +1,19 @@
 <html>
   <head>
-    <title>Bilangan Ganjil Dan Genap</title>
+    <title>PHPMongoTweet - MongoDB + tweets</title>
     
   <body>
-     
-<table border="1">
-<tr>
-<td width="200px">Bilangan Genap</td>
-<td width="200px">Bilangan Ganjil</td>
-</tr>
-<tr>
-<td style="text-align:center">
-
+    
 <?php
-for($i=1;$i<=100;$i++){
-        if($i % 2 == 0)  {
-        echo 'Bilangan Genap '.$i.'<br>';
-}
-}
+    for($i=0;$i<5;$i++)
+    {
+        for($j=0;$j<=$i;$j++)
+        {
+            echo "*";
+        }
+        echo "<br/>";
+    }
 ?>
-</td>
-
-
-<td style="text-align:center">
-<?php
-for($i=1;$i<=100;$i++){
-        if($i % 2 == 1){
-        echo 'Bilangan Ganjil '.$i.'<br>';
-}
-}
-?>
-</td>
-</tr>
-</table>
-
 
 
 

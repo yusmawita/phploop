@@ -7,9 +7,9 @@
 <?php
     
 for($i=1;$i<=100;$i++){
-echo 'Kelipatan "+=.$i.'<br/>';
+	echo 'Kelipatan '.$i.'<br/>';
 for($j=1;$j<=100;$j++){
-echo.$j+$i.' ';
+echo .$j+$i.' ';
 }
 echo '<br/>';
 }

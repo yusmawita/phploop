@@ -1,7 +1,20 @@
 <html>
   <head>
-    <title>Looping segitiga</title>
+    <title>Kelipatan Bilangan</title>
     
+
+
+
+<style>
+
+
+body {
+ background-image: url("pinkrice.png");
+ color: #C71585;
+}
+
+</style>
+</head>
   <body>
     
 <?php

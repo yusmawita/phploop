@@ -17,11 +17,11 @@ ul {
 <body>
 <h1>Silahkan klik link dibawah ini secara bergantian</h1>
 <ul>
-<li><h2> <a href="code1.jsp"> Looping Segitiga </a> </h2></li>
+<li><h2> <a href="code1.php"> Looping Segitiga </a> </h2></li>
 <br>
-<li><h2><a href="code2.jsp">Nilai Kelipatan</a></h2></h1></li>
+<li><h2><a href="code2.php">Nilai Kelipatan</a></h2></h1></li>
 <br>
-<li><h2> <a href="code3.jsp">Bilangan Genap dan Ganjil</a></h2>
+<li><h2> <a href="code3.php">Bilangan Genap dan Ganjil</a></h2>
 </li>
 </ul>
     </body>

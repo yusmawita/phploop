@@ -1,7 +1,22 @@
-html>
+<html>
   <head>
     <title>Bilangan Ganjil Dan Genap</title>
-    
+<style>
+
+
+body {
+ background-image: url("pinkrice.png");
+ color: #C71585;
+}
+
+</style>
+
+
+
+ </head>
+
+
+   
   <body>
      
 <table border="1">

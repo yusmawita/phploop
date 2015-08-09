@@ -1,20 +1,28 @@
 <html>
   <head>
     <title>Looping segitiga</title>
-    
-  <body>
-    
-<?php
-    
-for($i=1;$i<=100;$i++){
-	echo 'Kelipatan '.$i.'<br/>';
-for($j=1;$j<=100;$j++){
-$h=$j+$i;
-echo $h.' ';
-}
-echo '<br/>';
+<style>
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
 
-?>
-  </body>
+</style>
+</head>    
+<body>
+<h1>Silahkan klik link dibawah ini secara bergantian</h1>
+<ul>
+<li><h2> <a href="code1.jsp"> Looping Segitiga </a> </h2></li>
+<br>
+<li><h2><a href="code2.jsp">Nilai Kelipatan</a></h2></h1></li>
+<br>
+<li><h2> <a href="code3.jsp">Bilangan Genap dan Ganjil</a></h2>
+</li>
+</ul>
+    </body>
 </html>

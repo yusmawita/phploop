@@ -3,7 +3,7 @@
     <title>Looping segitiga </title>
 <style>
 body {
- background-image: url("pinkrice.png");
+ background-image: url("symphony.png");
  color: #C71585;
 }
 

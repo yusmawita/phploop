@@ -5,7 +5,7 @@
 
 
 body {
- background-image: url("pinkrice.png");
+ background-image: url("symphony.png");
  color: #C71585;
 }
 

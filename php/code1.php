@@ -1,6 +1,6 @@
-<html>
+﻿<html>
   <head>
-    <title>Looping segitiga </title>
+    <title>Looping segitiga Pink </title>
 <style>
 body {
  background-image: url("symphony.png");
